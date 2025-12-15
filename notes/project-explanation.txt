@@ -1,1 +1,5 @@
+This project uses Amazon EventBridge to trigger an AWS Lambda function automatically.
+EventBridge listens for defined events and invokes Lambda without manual intervention.
+Lambda executes Python code and logs output to CloudWatch.
+This approach follows serverless and event-driven architecture principles.
 
