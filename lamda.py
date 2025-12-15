@@ -1,8 +1,0 @@
-def lambda_handler(event, context):
-    print("Lambda triggered by EventBridge")
-    print("Event details:", event)
-
-    return {
-        'statusCode': 200,
-        'body': 'EventBridge triggered Lambda successfully'
-    }
